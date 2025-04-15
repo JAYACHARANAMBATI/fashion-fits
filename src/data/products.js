@@ -1,0 +1,148 @@
+const sampleProducts = [
+  {
+    id: 1,
+    name: "Summer Floral Dress",
+    price: 59.99,
+    image: "/assets/images/products/dress1.jpg",
+    images: [
+      "/assets/images/products/dress1.jpg",
+      "/assets/images/products/dress2.jpg",
+      "/assets/images/products/dress3.jpg",
+      "/assets/images/products/dress4.jpg"
+    ],
+    description: "A beautiful floral dress perfect for summer outings. Made with lightweight, breathable fabric that keeps you cool and comfortable all day long.",
+    category: "Women",
+    rating: 4.5,
+    reviews: 24,
+    isFeatured: true,
+    isOnSale: false,
+  },
+  {
+    id: 2,
+    name: "Classic Denim Jacket",
+    price: 79.99,
+    image: "/assets/images/products/jacket1.jpg",
+    images: [
+      "/assets/images/products/jacket1.jpg",
+      "/assets/images/products/jacket2.jpg",
+      "/assets/images/products/jacket3.jpg",
+      "/assets/images/products/jacket4.jpg"
+    ],
+    description: "A timeless denim jacket that never goes out of style. Features a comfortable fit with durable construction that will last for years.",
+    category: "Men",
+    rating: 4.2,
+    reviews: 18,
+    isFeatured: true,
+    isOnSale: true,
+  },
+  {
+    id: 3,
+    name: "Casual Sneakers",
+    price: 49.99,
+    image: "/assets/images/products/shoes1.jpg",
+    images: [
+      "/assets/images/products/shoes1.jpg",
+      "/assets/images/products/shoes2.jpg",
+      "/assets/images/products/shoes3.jpg",
+      "/assets/images/products/shoes1.jpg"
+    ],
+    description: "Comfortable casual sneakers with cushioned insoles and durable outsoles. Perfect for everyday wear and light activities.",
+    category: "Shoes",
+    rating: 4.7,
+    reviews: 32,
+    isFeatured: false,
+    isOnSale: false,
+  },
+  {
+    id: 4,
+    name: "Leather Handbag",
+    price: 89.99,
+    image: "/assets/images/products/bag1.jpg",
+    images: [
+      "/assets/images/products/bag1.jpg",
+      "/assets/images/products/bag2.jpg",
+      "/assets/images/products/bag3.jpg",
+      "/assets/images/products/bag4.jpg"
+    ],
+    description: "Elegant leather handbag with multiple compartments for organization. Features a stylish design that complements any outfit.",
+    category: "Accessories",
+    rating: 4.8,
+    reviews: 15,
+    isFeatured: true,
+    isOnSale: false,
+  },
+  {
+    id: 5,
+    name: "Slim Fit Jeans",
+    price: 69.99,
+    image: "/assets/images/products/jeans2.jpg",
+    images: [
+      "/assets/images/products/jeans2.jpg",
+      "/assets/images/products/jeans3.jpg",
+      "/assets/images/products/jeans2.jpg",
+      "/assets/images/products/jeans3.jpg"
+    ],
+    description: "Modern slim fit jeans with just the right amount of stretch for comfort. Versatile style that works for casual and semi-formal occasions.",
+    category: "Men",
+    rating: 4.3,
+    reviews: 27,
+    isFeatured: false,
+    isOnSale: true,
+  },
+  {
+    id: 6,
+    name: "Boho Maxi Skirt",
+    price: 45.99,
+    image: "/assets/images/products/skirt1.jpg",
+    images: [
+      "/assets/images/products/skirt1.jpg",
+      "/assets/images/products/skirt3.jpg",
+      "/assets/images/products/skirt1.jpg",
+      "/assets/images/products/skirt3.jpg"
+    ],
+    description: "Flowy bohemian maxi skirt with vibrant patterns. The lightweight fabric and elastic waistband provide all-day comfort and style.",
+    category: "Women",
+    rating: 4.1,
+    reviews: 19,
+    isFeatured: false,
+    isOnSale: false,
+  },
+  {
+    id: 7,
+    name: "Silver Hoop Earrings",
+    price: 29.99,
+    image: "/assets/images/products/accesories3.jpg",
+    images: [
+      "/assets/images/products/accesories3.jpg",
+      "/assets/images/products/accesories3.jpg",
+      "/assets/images/products/accesories3.jpg",
+      "/assets/images/products/accesories3.jpg"
+    ],
+    description: "Classic silver hoop earrings that add a touch of elegance to any outfit. Made from high-quality materials for durability and comfort.",
+    category: "Accessories",
+    rating: 4.6,
+    reviews: 22,
+    isFeatured: false,
+    isOnSale: true,
+  },
+  {
+    id: 9,
+    name: "Kids Cartoon T-Shirt",
+    price: 24.99,
+    image: "/assets/images/products/kidsshirt3.jpg",
+    images: [
+      "/assets/images/products/kidsshirt3.jpg",
+      "/assets/images/products/kidsshirt4.jpg",
+      "/assets/images/products/kidsshirt3.jpg",
+      "/assets/images/products/kidsshirt4.jpg"
+    ],
+    description: "Fun and colorful cartoon t-shirt for kids. Made with soft, breathable cotton that's gentle on sensitive skin and easy to wash.",
+    category: "Kids",
+    rating: 4.8,
+    reviews: 28,
+    isFeatured: true,
+    isOnSale: true,
+  },
+];
+
+export default sampleProducts;
