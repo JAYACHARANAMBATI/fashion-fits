@@ -94,22 +94,13 @@ const firebaseConfig = {
 
 ---
 
-## 🖼️ Screenshots
-
-> (Optional) Add screenshots or a short video/GIF to showcase the UI/UX here.
-
----
 
 ## 📦 Deployment
 
 Deployed on **Vercel**  
 🔗 [https://fashion-fits-ten.vercel.app/](https://fashion-fits-ten.vercel.app/)
 
----
 
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
